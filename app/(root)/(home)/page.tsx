@@ -1,11 +1,13 @@
 import React from "react";
-// import { UserButton } from "@clerk/nextjs";
+import { UserButton } from "@clerk/nextjs";
+// import { useTheme } from "@/context/ThemeProvider";
 
 const Home = () => {
+  // const { theme } = useTheme("light");
   return (
     <div>
-      <h1>Home</h1>
-      {/* <UserButton afterSignOutUrl="/" /> */}
+      {/* {theme} */}
+      <UserButton afterSignOutUrl="/" />
     </div>
   );
 };
