@@ -1,5 +1,5 @@
 import React from "react";
-import { UserButton } from "@clerk/nextjs";
+
 // import { useTheme } from "@/context/ThemeProvider";
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       {/* {theme} */}
-      <UserButton afterSignOutUrl="/" />
+      hello
     </div>
   );
 };
