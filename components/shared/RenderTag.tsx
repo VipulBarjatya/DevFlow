@@ -3,8 +3,8 @@ import React from "react";
 import { Badge } from "../ui/badge";
 
 interface IProps {
-  id?: number;
-  name?: string;
+  id: string;
+  name: string;
   totalQuestions?: number;
   showCount?: boolean;
 }
